@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(250, 250, 250);
+    background-color: #f7f8f9;
+}
+
+.homepagechild {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px 100px;
+    padding: 30px;
+    background-color: #FFF;
+}
+
+
+.homepagechild h1 {
+    color: #007db3;
+    font-size: 35px;
+}
+
+.homepagebuttonsmain {
+    width: 25%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepagebuttonsmain button {
+    font-size: 18px;
+    color: white;
+    background-color: #61CE70;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
+
+.homepagebuttonsmain button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.imagemain {
+    width: 75%;
+}
+
+.imagemain img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+
+/* Container section with gray background like .homepage */
+.secondsectionmain {
+    background-color: #f7f8f9;
+    padding: 10px 0;
+}
+
+/* Inner white content box like .homepagechild */
+.secondsectionmain .content-box {
+    margin: 20px 100px;
+    padding: 30px;
+    background-color: #FFF;
+
+}
+
+.content-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.leftcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.leftcontent h1 {
+    color: #007db3;
+    font-size: 35px;
+}
+
+.leftcontent p {
+    font-size: 18px;
+    color: gray;
+}
+
+.rightimageurdu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.aboutussectionmain {
+    background-color: #f7f8f9;
+    padding: 10px 0;
+}
+
+.aboutussectionmain .contentbox2 {
+    margin: 20px 100px;
+    padding: 30px;
+    background-color: #FFF;
+}
+
+.contentbox2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contentbox2 h1 {
+    color: #007db3;
+    font-size: 35px;
+}
+
+.contentbox2 p {
+    font-size: 18px;
+    color: gray;
+}
+
+.contentbox2 img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+.urdutext1 {
+    height: 800px;
+    width: 650px;
+}
+
+.urdutext2 {
+    height: 350px;
+    width: 650px;
+}
+
+
+
+.ourservicessection {
+    background-color: #f7f8f9;
+    padding: 10px 0;
+}
+
+.ourservicessection .contentbox3 {
+    margin: 20px 100px;
+    padding: 30px;
+    background-color: #FFF;
+}
+
+.contentbox3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.contentbox3 h1 {
+    color: #007db3;
+    font-size: 35px;
+}
+
+.contentbox3 p {
+    font-size: 18px;
+    color: gray;
+}
+
+.contentbox3 span {
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 1400px) {
+    .urdutext1 {
+        height: 801px;
+        width: 490px;
+    }
+
+    .urdutext2 {
+        height: 350px;
+        width: 493px;
+    }
+
+
+
+}
+
+
+@media (max-width: 1024px) {
+
+
+    .homepagebuttonsmain {
+        width: 35%;
+    }
+
+    .homepagechild {
+        margin: 0px;
+    }
+
+    .secondsectionmain .content-box {
+        margin: 0px;
+    }
+
+    .aboutussectionmain .contentbox2 {
+        margin: 0px;
+    }
+
+    .ourservicessection .contentbox3 {
+        margin: 0px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .homepagechild {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .content-box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .homepagebuttonsmain {
+        width: 60%;
+    }
+
+    .imagemain {
+        width: 100%;
+    }
+
+    .urdutext1 {}
+
+    .urdutext2 {
+        height: auto;
+        max-width: 100%;
+
+    }
+}
+
+
+@media (max-width: 490px) {
+
+    .homepagebuttonsmain {
+        width: 100%;
+    }
+
+    .urdutext1 {
+        height: auto;
+        max-width: 100%;
+    }
+
+
+}

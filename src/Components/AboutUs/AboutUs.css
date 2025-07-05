@@ -1,0 +1,47 @@
+.aboutusmain {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutusdetails {
+    background-color: #f7f8f9;
+    padding: 10px 0;
+
+}
+
+.aboutusdetails .contentbox4 {
+    margin: 30px 100px;
+    padding: 50px;
+    background-color: #FFF;
+}
+
+.contentbox4 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.contentbox4 h1 {
+    color: #007db3;
+    font-size: 35px;
+}
+
+.contentbox4 p {
+    font-size: 20px;
+    color: gray;
+}
+
+.contentbox4 span {
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 500px) {
+    .aboutusdetails .contentbox4 {
+        margin: 0;
+    }
+}

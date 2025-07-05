@@ -1,0 +1,47 @@
+.privacypolicymain {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.privacypolicydetails {
+    background-color: #f7f8f9;
+    padding: 10px 0;
+
+}
+
+.privacypolicydetails .contentbox5 {
+    margin: 30px 100px;
+    padding: 50px;
+    background-color: #FFF;
+}
+
+.contentbox5 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.contentbox5 h1 {
+    color: #007db3;
+    font-size: 35px;
+}
+
+.contentbox5 p {
+    font-size: 20px;
+    color: gray;
+}
+
+.contentbox5 span {
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 500px) {
+    .privacypolicydetails .contentbox5 {
+        margin: 0;
+    }
+}
